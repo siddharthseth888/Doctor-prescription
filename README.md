@@ -32,39 +32,39 @@ Make sure you have the following installed:
 Follow these steps to set up the project locally:
 
 
-# 1. Clone the repository
+## 1. Clone the repository
 ```bash
 git clone https://github.com/siddharthseth888/Doctor-prescription.git
 cd Doctor-prescription
 ```
 
-# 2. Backend setup
+## 2. Backend setup
 ```bash
 cd backend
 npm install
 ```
 
-# 2a. Create environment variables
+## 2a. Create environment variables
 *Create a .env file in backend folder with contents like:*\
 *MONGODB_URI=<your_mongodb_connection_string>*\
 *JWT_SECRET=<your_jwt_secret>*\
 *PORT=5000*
 
-# 3. Start backend server
+## 3. Start backend server
 ```bash
 npm start
 ```
 
-# In a new terminal, go back to root
+## In a new terminal, go back to root
 ```bash
 cd ../frontend
 npm install
 ```
-# 4. Frontend configuration (if needed)
+## 4. Frontend configuration (if needed)
 ##### If frontend needs API base URL, create a .env or config file, for example:
 #####   REACT_APP_API_URL=http://localhost:5000
 
-# 5. Start frontend
+## 5. Start frontend
 ```
 npm start
 ```
@@ -109,7 +109,7 @@ Doctor-prescription/
 └── README.md
 ```
 
-#⚙️ Notes
+## ⚙️ Notes
 
 Always make sure MongoDB is running before starting the backend.
 
@@ -119,7 +119,7 @@ Make sure the JWT secret is kept private (don’t commit .env to version control
 
 For production, handy to build and serve frontend with production optimizations.
 
-# 🤝 Contributing
+## 🤝 Contributing
 
 Contributions are welcome! Feel free to:
 
@@ -129,7 +129,7 @@ Create a new branch for your changes
 
 Submit pull requests
 
-# 📝 License & Author
+## 📝 License & Author
 
 Author: Siddharth Seth
 
